@@ -4,4 +4,4 @@
 ## Installation Guide
 - `npm install` to install all the dependances 
 - `npm run devStart` to start local development server 
-- Enter the url: `http://localhost:3000/` in browser to open the application
+- Enter the url: `http://localhost:3000/` in browser to open the application (The frontend is already build and saved in backend inside `~/public`)
