@@ -1,0 +1,33 @@
+
+
+GET http://localhost:3000/item
+
+###
+
+GET http://localhost:3000/item/6463a3942ae1a70d20e6df16
+
+###
+
+DELETE  http://localhost:3000/item/6463a176ee93cf75e0739d9c
+
+###
+POST http://localhost:3000/item/
+Content-Type: application/json
+
+{
+    "name": "tinku kalluri kumar",
+    "email": "tinku@gmail.com",
+    "mobile": 9133723619
+}
+
+
+###
+PATCH http://localhost:3000/item/6463a3942ae1a70d20e6df16
+Content-Type: application/json
+
+{
+    "name": "sintingrdgdrg"
+}
+
+
+### 
